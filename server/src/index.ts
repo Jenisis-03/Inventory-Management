@@ -28,7 +28,6 @@ app.use("/products", productRoutes); // http://localhost:8000/products
 app.use("/users", userRoutes);
 app.use("/expenses", expenseRoutes); // http://localhost:8000/expenses
 
-
 /*SERVER*/
 
 const port = Number(process.env.PORT) || 3001;
